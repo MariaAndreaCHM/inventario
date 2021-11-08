@@ -1,0 +1,56 @@
+.padre{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.formulario{
+   
+    margin-left: 100px;
+    margin-right: 200px;
+   
+
+}
+.tabla{
+    
+    margin-left: 250px;
+  
+   
+}
+
+/*buscador*/
+
+.busc{
+    margin-left: 70%;
+     
+     height:100px;
+     
+     display:flex;
+     width:250px;
+     justify-content: center;
+     
+     
+     
+ }
+ .buscador{
+     border-color: #008080;
+     border-radius: 5px;
+     margin-top: 20%;
+     height:35px;
+     width:80%;
+     padding-left: 20px;
+ 
+     
+     
+ }
+ #lupa{
+     height:30px;
+     width:30px;
+     margin-top: 20%;
+ }
+ #contLupa{
+     margin-top: 19%;
+     margin-right: 15px;
+ }

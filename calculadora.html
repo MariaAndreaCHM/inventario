@@ -1,0 +1,28 @@
+<h1>Calculadora</h1>
+<table>
+    <tr>
+        <td>
+            <p>
+                <lable for="numeroUno"> N 1:</lable>
+                <input type="number" ng-model="valores.numeroUno" name="numeroUno">
+            </p>
+            
+            <p>
+                <lable for="numeroDos"> N 2:</lable>
+                <input type="number" ng-model="valores.numeroDos" name="numeroDos">
+            </p>
+            
+            <p>
+                <button ng-click ="sumar()">Sumar</button>
+                <button ng-click ="duplicar()">Duplicar</button>
+                <button ng-click ="restar()">Duplicar</button>
+            </p>
+            
+        </td>
+        <td>
+            <h3>Resultado:</h3>
+            <h4>{{resultado}}</h4>
+        </td>
+    </tr>
+</table>
+
